@@ -14,9 +14,15 @@
       "@components": [
         "src/components"
       ],
-      "@components/*": [
-        "src/components/*",
-      ]
+      "@ui": [
+        "src/libs/ui"
+      ],
+      "@assets": [
+        "src/assets"
+      ],
+      "@utils": [
+        "src/libs/utils"
+      ],
     }
   },
   "include": [
