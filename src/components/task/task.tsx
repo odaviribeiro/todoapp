@@ -14,7 +14,7 @@ export type TaskProps = {
 export function Task({ title, isCompleted, onDone, onRemove }: TaskProps) {
   return (
     <View style={styles.container}>
-      <Pressable onPress={onDone}>
+      <Pressable onPress={onDone} style={styles.pressable}>
         <MaterialCommunityIcons
           name={
             isCompleted
@@ -32,7 +32,7 @@ export function Task({ title, isCompleted, onDone, onRemove }: TaskProps) {
           {title}
         </Text>
       </View>
-      <Pressable onPress={onRemove}>
+      <Pressable onPress={onRemove} style={styles.pressable}>
         <MaterialCommunityIcons
           name="trash-can-outline"
           size={20}

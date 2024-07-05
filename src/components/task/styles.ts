@@ -15,7 +15,6 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: theme.colors.base.gray400,
     marginHorizontal: 24,
-    gap: 8,
   },
   textContainer: {
     flexGrow: 1,
@@ -34,5 +33,8 @@ export const styles = StyleSheet.create({
     fontSize: theme.font_size.md,
     color: theme.colors.base.gray100,
     textDecorationLine: 'none',
+  },
+  pressable: {
+    padding: 8,
   },
 });
