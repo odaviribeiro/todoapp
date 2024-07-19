@@ -17,6 +17,9 @@
       "@ui": [
         "src/libs/ui"
       ],
+      "@theme": [
+        "src/libs/ui/theme"
+      ],
       "@assets": [
         "src/assets"
       ],

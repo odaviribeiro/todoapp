@@ -1,7 +1,7 @@
 import React from 'react';
 import { ActivityIndicator, View } from 'react-native';
 import { styles } from './styles';
-import { theme } from '@ui';
+import { theme } from '@theme';
 
 export function Loading() {
   return (

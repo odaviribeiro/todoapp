@@ -3,7 +3,7 @@ import { Image, Pressable, TextInput, View } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { styles } from './styles';
 import { logo } from '@assets';
-import { theme } from '@ui';
+import { theme } from '@theme';
 
 type HeaderProps = {
   task: string;

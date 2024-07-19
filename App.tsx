@@ -6,6 +6,7 @@ import {
   Inter_700Bold,
   useFonts,
 } from '@expo-google-fonts/inter';
+import { registerRootComponent } from 'expo';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -16,3 +17,5 @@ export default function App() {
   if (!fontsLoaded) return <Loading />;
   return <HomeScreen />;
 }
+
+registerRootComponent(App);
